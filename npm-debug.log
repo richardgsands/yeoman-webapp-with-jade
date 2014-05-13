@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.25/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-jade@master' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 warn package.json tj@0.0.0 No description
+5 warn package.json tj@0.0.0 No repository field.
+6 warn package.json tj@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-contrib-jade@master', null ]
+9 verbose cache add name=undefined spec="grunt-contrib-jade@master" args=["grunt-contrib-jade@master",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-contrib-jade@master',
+10 verbose parsed url   path: 'grunt-contrib-jade@master',
+10 verbose parsed url   href: 'grunt-contrib-jade@master' }
+11 verbose cache add name="grunt-contrib-jade" spec="master" args=["grunt-contrib-jade","master"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'master',
+12 verbose parsed url   path: 'master',
+12 verbose parsed url   href: 'master' }
+13 verbose addNamed [ 'grunt-contrib-jade', 'master' ]
+14 verbose addNamed [ null, null ]
+15 silly lockFile 4512c7b0-grunt-contrib-jade-master grunt-contrib-jade@master
+16 verbose lock grunt-contrib-jade@master /Users/rsns/.npm/4512c7b0-grunt-contrib-jade-master.lock
+17 info addNameTag [ 'grunt-contrib-jade', 'master' ]
+18 verbose url raw grunt-contrib-jade
+19 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jade' ]
+20 verbose url resolved https://registry.npmjs.org/grunt-contrib-jade
+21 info trying registry request attempt 1 at 18:22:03
+22 verbose etag "66T1YJAXH8KGJGZ9GAU727MGT"
+23 http GET https://registry.npmjs.org/grunt-contrib-jade
+24 http 304 https://registry.npmjs.org/grunt-contrib-jade
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Tue, 13 May 2014 22:18:45 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Tue, 13 May 2014 22:18:45 GMT',
+25 silly registry.get     'cache-control': 'max-age=1',
+25 silly registry.get     etag: '"66T1YJAXH8KGJGZ9GAU727MGT"',
+25 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1400019525.749613047,VS0,VE103',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag grunt-contrib-jade from cache
+27 silly lockFile 4512c7b0-grunt-contrib-jade-master grunt-contrib-jade@master
+28 silly lockFile 4512c7b0-grunt-contrib-jade-master grunt-contrib-jade@master
+29 error notarget No compatible version found: grunt-contrib-jade@'master'
+29 error notarget Valid install targets:
+29 error notarget ["0.2.0","0.3.0","0.3.1","0.4.0","0.5.0","0.5.1","0.6.0","0.7.0","0.8.0","0.9.0","0.9.1","0.4.0-rc7","0.10.0","0.11.0"]
+29 error notarget
+29 error notarget This is most likely not a problem with npm itself.
+29 error notarget In most cases you or one of your dependencies are requesting
+29 error notarget a package version that doesn't exist.
+30 error System Darwin 13.1.0
+31 error command "/usr/local/Cellar/node/0.10.25/bin/node" "/usr/local/bin/npm" "install" "grunt-contrib-jade@master"
+32 error cwd /Users/rsns/work/code/frontend/tracy/tj
+33 error node -v v0.10.25
+34 error npm -v 1.3.24
+35 error code ETARGET
+36 verbose exit [ 1, true ]
